@@ -184,8 +184,16 @@ function LungDiagram({
           <circle cx="573" cy="433" r="10" className="anatomy-diagram__alveolus" />
           <circle cx="585" cy="433" r="8" className="anatomy-diagram__alveolus" />
         </g>
-        <text x="565" y="498" textAnchor="middle" className="anatomy-diagram__caption">
-          DETALHE ESQUEMÁTICO DOS ALVÉOLOS
+        <text
+          x="565"
+          y="492"
+          textAnchor="middle"
+          className="anatomy-diagram__caption"
+          aria-label="Detalhe esquemático dos alvéolos"
+        >
+          <tspan x="565" dy="0">DETALHE</tspan>
+          <tspan x="565" dy="26">ESQUEMÁTICO</tspan>
+          <tspan x="565" dy="26">DOS ALVÉOLOS</tspan>
         </text>
       </svg>
 
